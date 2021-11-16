@@ -19,6 +19,7 @@ img {
   margin: 0 0 0 320px;
   position: relative;
   top: 70px;
+  left: 100px;
 }
 
 hr {
@@ -26,4 +27,9 @@ hr {
   border-top: dotted;
   border-color: grey;
   width: 5%
+}
+
+span {
+  Color: red;
+  background-color: lightgray;
 }
