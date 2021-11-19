@@ -1,35 +1,105 @@
-body {
-  background-color: #EAF6F6;
+h1,
+h3,
+h4 {
+    color: #66bfbf;
 }
 
-h1, h3 ,h4 {
-  color: #66bfbf;
-}
-
-img {
-  border-radius: 100%;
-  width: 10%;
-  position: absolute;
-  margin-top: 20px;
-}
-
-.section1text {
-  height: 300px;
-  max-width: 500px;
-  margin: 0 0 0 320px;
-  position: relative;
-  top: 70px;
-  left: 100px;
+.section1 img {
+    border-radius: 100%;
+    width: 20%;
+    float: right;
 }
 
 hr {
-  border-style: none;
-  border-top: dotted;
-  border-color: grey;
-  width: 5%
+    border-style: none;
+    border-top: dashed;
+    border-color: lightgreen;
+    width: 25%;
+    margin: 20px auto;
 }
 
+.section1 {
+    background: #eaf6f6;
+    padding: 50px 0;
+}
+
+.section1 h1 {
+    max-width: 310px;
+    text-align: center;
+}
+
+.section1 p {
+    width: 310px;
+    text-align: center;
+}
+
+.section2 .col-md-6:first-child h3,
+.section2 .col-md-6:first-child h4 {
+    text-align: right;
+}
+
+.section2 .col-md-6:first-child ul {
+    float: right;
+}
+
+.section2 td {
+    padding-right: 10px;
+    border: 1px solid lightgreen;
+}
+
+.section3 h3 {
+    text-align: center;
+}
+
+.section3 table {
+    margin: 0 auto;
+}
+
+.section3 td {
+    padding-right: 10px;
+    border: 1px solid lightgreen;
+}
+
+.section4 {
+  background: #eaf6f6;
+  padding: 20px 0
+  ;
+}
+
+.section4 .col-md-6:nth-child(1) h4, .section5 .col-md-6:nth-child(1) h4, .section6 .col-md-6:nth-child(1) h4 {
+  text-align: center;
+}
+  .section4 table tbody tr, .section5 table tbody tr, .section6 table tbody tr {
+    border-bottom: 1px solid black;
+}
+
+.section4 table, .section5 table, .section6 table{
+  width: 100%;
+}
+
+.section4 .col-md-6:nth-child(2) img, .section5 .col-md-6:nth-child(1) img, .section6 .col-md-6:nth-child(2) img {
+  width: 50%;
+}
+
+.section4 table thead th, .section5 table thead th, .section6 table thead th {
+  text-align: center;
+}
+
+.section4 table tbody tr td:nth-child(2), .section5 table tbody tr td:nth-child(2), .section6 table tbody tr td:nth-child(2) {
+  color: #2d2;
+}
+.section5 {
+  padding: 20px 0;
+}
+.section5 .col-md-6:nth-child(1) img {
+  float: right;
+}
+
+.section6 {
+  background: #eaf6f6;
+  padding: 20px 0;
+}
 span {
-  Color: red;
-  background-color: lightgray;
+    color: red;
+    background-color: lightgray;
 }
